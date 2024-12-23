@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Gym Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h2>About Our Gym</h2>
+        <p>Our gym is dedicated to providing the best fitness experience for all levels.</p>
+        <img src="{{ url_for('static', filename='images/gym1.jpg') }}" alt="Gym Facilities" class="about-img">
+        <img src="{{ url_for('static', filename='images/gym6.jpg') }}" alt="Gym Facilities" class="about-img">
+        <img src="{{ url_for('static', filename='images/gym3.jpg') }}" alt="Gym Facilities" class="about-img">
+        <img src="{{ url_for('static', filename='images/gym4.jpg') }}" alt="Gym Facilities" class="about-img">
+        <img src="{{ url_for('static', filename='images/gym5.avif') }}" alt="Gym Facilities" class="about-img">
+        <img src="{{ url_for('static', filename='images/gym2.jpg') }}" alt="Gym Facilities" class="about-img">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gym Management. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
